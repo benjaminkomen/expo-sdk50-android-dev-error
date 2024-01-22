@@ -15,37 +15,18 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "infoPlist": {
-        "NSCameraUsageDescription": "Allow $(PRODUCT_NAME) to access your camera",
-        "NSMicrophoneUsageDescription": "Allow $(PRODUCT_NAME) to access your microphone"
-      }
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.benjaminkomen.exposdk50androiddeverror",
-      "permissions": [
-        "android.permission.CAMERA"
-      ]
+      "package": "com.benjaminkomen.exposdk50androiddeverror"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "expo-secure-store",
-      "expo-barcode-scanner",
-      [
-        "expo-build-properties",
-        {
-          "android": {
-            "usesCleartextTraffic": true
-          }
-        }
-      ]
-    ],
     "extra": {
       "eas": {
         "projectId": "46bb1c5d-8042-41f6-951f-19e514c9b094"
